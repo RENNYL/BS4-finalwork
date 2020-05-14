@@ -5,10 +5,8 @@ $main-second:  #9099a2;
 $second-color:  #96858f;
 $section1-text:  #3f51a7;
 
-
-
 *{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif TC', serif;
 }
 
 
@@ -180,6 +178,7 @@ $section1-text:  #3f51a7;
 .product-header-text{
     letter-spacing: 10px;
     writing-mode: vertical-rl;
+    line-height: 1.5;
     top:0;
     right: 0;
     &.text-bg{
