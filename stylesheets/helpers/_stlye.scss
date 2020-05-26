@@ -1,9 +1,9 @@
 $main-color:  #6d7993;
 $main-lighter:  #c8cedc;
 $main-darker:  #566075;
-$main-second:  #9099a2;
+// $main-second:  #9099a2;
 $second-color:  #96858f;
-$section1-text:  #3f51a7;
+// $section1-text:  #3f51a7;
 
 *{
     font-family: 'Noto Serif TC', serif;
@@ -39,12 +39,13 @@ $section1-text:  #3f51a7;
 //index//
 .header-box-wrap {
     position: relative;
-    width: 255px;
+    // width: 255px;
     height: 270px;
     .header-box-text{
         position: absolute;
         letter-spacing: 10px;
         writing-mode: vertical-rl;
+
     }
     .header-box-cover{
         position: absolute;
@@ -85,7 +86,7 @@ $section1-text:  #3f51a7;
 .section-why-img{
     min-height: 200px;
     @include media-breakpoint-down(md) {
-        margin: 5px -15px;
+        margin: 5px 0px ;
     }
 }
 

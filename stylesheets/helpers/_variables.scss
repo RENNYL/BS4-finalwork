@@ -75,16 +75,11 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
-// $main-color:  #03839e;
-// $second-color:  #f9d3e0;
-// $main-second:  #86def0;
+
 $main-color:  #6d7993;
 $main-darker:  #566075;
 $main-lighter:  #cdceda;
-$main-second:  #9099a2;
 $second-color:  #96858f;
-$section1-text:  #3f51a7;
-
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -101,9 +96,7 @@ $theme-colors: map-merge(
     "main-color":   $main-color,
     "main-lighter":   $main-lighter,
     "main-darker":   $main-darker,
-    "main-second":   $main-second,
     "second-color":   $second-color,
-    "section1-text":   $section1-text,
   ),
   $theme-colors
 );
