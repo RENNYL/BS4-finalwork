@@ -12822,6 +12822,7 @@ a.text-second-color:hover, a.text-second-color:focus {
 }
 
 .product-header-text {
+  white-space: nowrap;
   letter-spacing: 8px;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
