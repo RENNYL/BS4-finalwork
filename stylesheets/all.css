@@ -12822,7 +12822,7 @@ a.text-second-color:hover, a.text-second-color:focus {
 }
 
 .product-header-text {
-  letter-spacing: 10px;
+  letter-spacing: 8px;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
