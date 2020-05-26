@@ -85,7 +85,7 @@ $section1-text:  #3f51a7;
 .section-why-img{
     min-height: 200px;
     @include media-breakpoint-down(md) {
-        margin: 5px -15px;
+        margin: 5px 0px;
     }
 }
 
