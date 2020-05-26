@@ -12675,7 +12675,7 @@ a.text-second-color:hover, a.text-second-color:focus {
 }
 
 .header-box-wrap .header-box-text {
-  position: absolute;
+/*   position: absolute; */
   letter-spacing: 10px;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
