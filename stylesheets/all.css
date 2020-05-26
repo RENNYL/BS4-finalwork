@@ -165,7 +165,7 @@ a {
 
 a:hover {
   color: #363c49;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -3743,11 +3743,11 @@ fieldset:disabled a.btn {
 
 .btn-link:hover {
   color: #363c49;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -12675,12 +12675,10 @@ a.text-second-color:hover, a.text-second-color:focus {
 }
 
 .header-box-wrap .header-box-text {
-  position: absolute;
   letter-spacing: 10px;
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
-  text-align: center;
 }
 
 .header-box-wrap .header-box-cover {
