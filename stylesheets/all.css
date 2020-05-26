@@ -12680,6 +12680,7 @@ a.text-second-color:hover, a.text-second-color:focus {
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
+  text-align: center;
 }
 
 .header-box-wrap .header-box-cover {
